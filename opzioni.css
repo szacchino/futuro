@@ -1,0 +1,44 @@
+section.opzioni {
+    --h1-max-height: 25;
+    --r-heading-color: black;
+    left: 3%;
+    width: 97% !important;
+}
+
+/* section.opzioni .plantuml {
+    max-height: 56vh;
+    max-width: 50vw;
+    position: relative;
+} */
+
+section.opzioni p,
+section.opzioni ul {
+    --r-main-font-size: 1.5vw;
+    font-size: var(--r-main-font-size);
+}
+
+section.opzioni h1 {
+    position: relative;
+    top: 1vh;
+    left: 2vh;
+    min-height: 25vh;
+    left: 6vh;
+    margin-bottom: 1vh;
+}
+
+h1 {
+    display: grid;
+    align-items: start;
+}
+
+section.opzioni .shape {
+    shape-outside: polygon(100% 0, 100% 100%, 0 100%, 77% 0);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 77% 0);
+    shape-margin: .1vw;
+    /* shape-outside: polygon(0 0, 0 200px, 200px 300px); */
+    width: 45%;
+    height: 100%;
+    float: right;
+    opacity: 1;
+    background-color:#ff000055;
+}

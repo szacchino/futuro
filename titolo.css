@@ -1,0 +1,33 @@
+
+:root {
+    --titolo-h1-top-margin: 12vw;
+    --titolo-h1-margin: var(--titolo-h1-top-margin) 0 0 var(--titolo-left-margin);
+    --titolo-left-margin: 6vw;
+}
+
+.reveal .slides section.titolo h1 {
+    position: relative;
+    margin: var(--titolo-h1-margin);
+    width: 50vw;
+    text-align: left;
+    --r-heading1-size: 5vw;
+}
+
+.reveal .slides section.titolo h2 {
+    position: relative;
+    margin: 3vw 0 0 var(--titolo-left-margin);
+    width: 40vw;
+    text-align: left;
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    text-transform: initial !important;
+}
+
+.reveal .slides section.titolo h3 {
+    position: relative;
+    margin: 1vw 0 0 var(--titolo-left-margin);
+    width: 50vw;
+    text-align: left;
+    font-size: 1.3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}

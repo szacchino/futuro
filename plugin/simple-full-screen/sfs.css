@@ -1,0 +1,9 @@
+.simple-full-screen-button {
+    position: fixed;
+    z-index: 30 !important;
+    top: 1vw;
+    right: 1vw;
+    font-size: 3vw;
+    color: black;
+
+}

@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+.reveal-viewport {
+    aspect-ratio: 16 / 9;
+}
+
+.reveal .slides {
+    --r-heading-font: Georgia, 'Times New Roman', Times, serif;
+    --r-main-font: Georgia, 'Times New Roman', Times, serif;
+    --r-main-color: #292E39;
+}
+
+.reveal .slides section {
+    aspect-ratio: 16 / 9 !important;
+}
+
+.reveal .slides section.roadmap {
+    aspect-ratio: 9 / 9 !important;
+}
+
+.h1-fontsize-30 {
+    --r-heading1-size: 2vw;
+}
+
+.h1-fontsize-40 {
+    --r-heading1-size: 3vw;
+}
+
+.h1-fontsize-50 {
+    --r-heading1-size: 4vw;
+}
+
+.h1-fontsize-60 {
+    --r-heading1-size: 5vw;
+}
+
+.h1-fontsize-70 {
+    --r-heading1-size: 6vw;
+}
+
+.h1-fontsize-80 {
+    --r-heading1-size: 7vw;
+}
+
+.h1-align-left {
+    text-align: left;
+}
+
+.h1-align-center {
+    text-align: center;
+}
+
+.h1-align-right {
+    text-align: right;
+}
+
+
+
+.reveal .slides .footer {
+    font-size: 3vh;
+    position: absolute;
+    bottom: 0;
+    height: 6vh;
+    line-height: 6vh;
+    display: block;
+    width: 100%;
+
+    color: rgb(255, 255, 255);
+    padding-left: var(--titolo-left-margin);
+    background-color: #b50413ff;
+    left: 0;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+
+/** PERSONALIZZAZIONE DEI PLUGIN */
+.slide-menu-button {
+    position: absolute;
+    top: 1vh;
+    left: 1vw !important;
+    border-radius: .5vw;
+    /* background-color: #f0cb0088; */
+    /* padding: .8vw; */
+    height: 2vw !important;
+}
+
+
+.slide-menu-button a {
+    color: black !important;
+    font-size: 1vw;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    text-align: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p.admonition-content, p.admonition-content p, p.admonition-content ul, p.admonition-content li {
+    --r-main-font-size: 3vh !important;
+    font-size: var(--r-main-font-size);
+  }
