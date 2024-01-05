@@ -1,14 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>reveal.js – The HTML Presentation Framework</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<link rel="stylesheet" href="reveal/dist/reset.css">
+	<link rel="stylesheet" href="reveal/dist/reveal.css">
+	<link rel="stylesheet" href="reveal/dist/theme/white.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="reveal/plugin/highlight/monokai.css">
+	<!-- Caricamento di FontAwesome -->
+	<link rel="stylesheet" href="plugin/reveal.js-menu/font-awesome/css/all.css">
+	<!-- Stile CSS Custom per le slide -->
+	<!-- <link rel="stylesheet" href="style.css"> -->
+	<link rel="stylesheet" href="reveal.css">
+	<link rel="stylesheet" href="titolo.css">
+	<link rel="stylesheet" href="roadmap.css">
+	<link rel="stylesheet" href="opzioni.css">
+	<link rel="stylesheet" href="cosa-impareremo.css">
+	
 </head>
+
 <body>
-    <h1>Progetto Futuro</h1>
-    <ul>
-        <li><a href="Lezione1.html">Lezione 1</a></li>
-    </ul>
+	<!-- Il deck delle slide è definito nel file Markdown slides.md -->
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="index.md" data-background-position="0 0">
+			</section>
+		</div>
+	</div>
+
+	<script src="reveal/dist/reveal.js"></script>
+	<script src="reveal/plugin/zoom/zoom.js"></script>
+	<script src="reveal/plugin/notes/notes.js"></script>
+	<script src="reveal/plugin/search/search.js"></script>
+	<script src="reveal/plugin/markdown/markdown.js"></script>
+	<script src="reveal/plugin/highlight/highlight.js"></script>
+	<!-- <script type="text/javascript" src="reveal/plugin/fsfx/fsfx.js"></script> -->
+	
+	<!-- Plugin custom, che non fanno parte della distribuzione originale -->
+	<script src="plugin/reveal.js-menu/menu.js"></script>
+	<script src="plugin/admonition/admonition.js"></script>
+    <link rel="stylesheet" href="plugin/admonition/admonition.css">
+	<script src="plugin/reveal.js-plantuml-plugin/lib/deflate.js"></script>
+
+	<script>
+		// import Plantuml from './plugin/plantuml.js';
+
+		// import SimpleFullScreen from './reveal/plugin/simple-full-screen/sfs.js';
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			// embedded: false,
+			controls: false,
+			progress: false,
+			center: false,
+			hash: true,
+			disableLayout: true,
+			width: 16,
+			height: 9,
+			margin: 0,
+			minScale: 1,
+			maxScale: 1,
+			zoom: true,
+			menu: {
+				titleSelector: 'h1',
+				custom: [
+					{
+						title: 'Links',
+						icon: '<i class="fas fa-book-open">',
+						src: 'links.html'
+					},
+					// {
+					// 	title: 'Full Screen',
+					// 	icon: '<i class="fas fa-expand">',
+					// 	content: '<div style="padding:2vw"><button onclick="javascript:var t=document.documentElement;if(t.requestFullscreen){t.requestFullscreen()}else if(t.mozRequestFullScreen){t.mozRequestFullScreen()}else if(t.webkitRequestFullscreen){t.webkitRequestFullscreen()};RevealMenu().closeMenu(null, true);">Full Screen</button></div>'
+					// },
+					{
+						title: 'About',
+						icon: '<i class="fa fa-info">',
+						content: "<p>Progetto FUTURO: Formazione innovativa e pratica UTilizzando laboratori congiUnti per la tRasfOrmazione digitale</p><p>A.S. 2023-2024 – Gruppo di Ingegneria Informatica dell'Università del Salento</p>"
+					}
+				]
+			},
+			// Learn about plugins: https://revealjs.com/plugins/
+			dependencies: [
+				{ src: 'plugin/reveal.js-plantuml-plugin/plugin/plantuml.js', async: false }
+			],
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealAdmonition],
+		});
+
+	</script>
+	<script src="script.js"></script>
+	<script>
+		Reveal.on( 'ready', event => {
+			console.log('revealready');
+			setFooterHtml("A.S. 2023/2024 – Gruppo di Ingegneria Informatica dell'Università del Salento"); 
+			// setElements();
+			resizeElements(30);
+		} );
+		window.addEventListener("resize", function(event) {
+			console.log("start resize");
+			resizeElements(50);
+			console.log("end resize");
+		});
+	</script>
 </body>
+
 </html>
