@@ -5,4 +5,4 @@ Lezioni Online: [https://szacchino.github.io/futuro](https://szacchino.github.io
 
 Elenco delle lezioni
 
-- [Lezione 1](Lezione1.html)
+<!-- - [Lezione 1](Lezione1.html) -->
