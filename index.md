@@ -4,5 +4,8 @@
 Lezioni Online: [https://szacchino.github.io/futuro](https://szacchino.github.io/futuro)
 
 Elenco delle lezioni
-
+<ul>
+    <li><a href="https://colab.research.google.com/drive/1mq1-Qb-WKtdJrPWUowC4USe5SwkKzWl7?usp=sharing" target="_blank">Notebook Lezione 1</a>
+</li>
+</ul>
 <!-- - [Lezione 1](Lezione1.html) -->
