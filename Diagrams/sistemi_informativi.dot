@@ -1,0 +1,34 @@
+digraph g {
+    bgcolor=transparent
+    splines=false;
+    rankdir="LR";
+    ranksep=.8; nodesep=.8;
+    edge [penwidth=2 color="#555577"]
+    node [penwidth=2 color="#555577" fontcolor="#555577" shape="rect" style="rounded" fontname="Nunito"]
+    dbms [shape="cylinder" label="Data Base\nDBMS"]
+    ext [shape="cylinder" label="External\nData"]
+    dw [shape="cylinder" label="Data\nWarehouse"]
+    wms[label="WMS\nWarehouse\nMgmt Sys"]
+    scm[label="SCM\nSupply Chain"]
+    mes[label="MES\nManufacturing\nExecution"]
+    erp[label="ERP\nEnterprise\nResource\nPlanning"]
+    mrp[label="MRP\nMaterial\nRequirements\nPlanning"]
+    
+    etl[label="ETL\nExtract,\nTransform\nand Load"]
+    dss[label="DSS\nDecision Support\nSystem"]
+
+
+
+    {rank=same ext etl}
+    {rank=same wms erp dbms}
+    
+    {wms; scm} -> dbms;
+    {mes; mrp} -> dbms;
+    dbms -> erp[dir=back];
+    
+    dbms->etl;
+    ext->etl;
+    etl->dw;
+    dw->dss[dir="back"];
+
+}

@@ -39,6 +39,6 @@ section.opzioni .shape {
     width: 45%;
     height: 100%;
     float: right;
-    opacity: 1;
-    background-color:#ff000055;
+    /* opacity: 1; */
+    /* background-color:#ff000055; */
 }
