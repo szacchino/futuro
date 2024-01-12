@@ -174,3 +174,9 @@ p.admonition-content, p.admonition-content p, p.admonition-content ul, p.admonit
     --r-main-font-size: 3vh !important;
     font-size: var(--r-main-font-size);
   }
+
+section.hidden-h1 {
+    h1 {
+        display: none;
+    }
+}
