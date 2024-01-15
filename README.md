@@ -57,8 +57,6 @@ Le slide supportano le admonition.
 !!!warning Title
 	Testo dell'admonition
 ```
-!!!warning Title
-	Testo dell'admonition
 
 Sono possibili admonition con le keyword:
 - `summary`

@@ -30,7 +30,7 @@ h1 {
     align-items: start;
 }
 
-asection.grafico .shape {
+asection.grafico.shape .shape {
     shape-outside: polygon(100% 0, 100% 100%, 0 100%, 77% 0);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 77% 0);
     shape-margin: .1vw;

@@ -74,8 +74,8 @@ import {
     font-size: 3vh;
     position: absolute;
     bottom: 0;
-    height: 6vh;
-    line-height: 6vh;
+    height: 6.3vh;
+    line-height: 6.3vh;
     display: block;
     width: 100%;
 
@@ -179,4 +179,8 @@ section.hidden-h1 {
     h1 {
         display: none;
     }
+}
+
+.admonition {
+    
 }

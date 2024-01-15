@@ -1,7 +1,7 @@
 function vizParse(code, elem) {
-    console.log(code, elem);
+    // console.log(code, elem);
     if (elem) {
-        console.log(elem);
+        // console.log(elem);
         elem.innerHTML = "";
         elem.innerText = "";
         var viz = new Viz();
@@ -10,10 +10,6 @@ function vizParse(code, elem) {
         });
     }
 }
-
-
-
-
 
 function setFooterHtml(html) {
     var slides = document.querySelectorAll(".slides");
@@ -112,37 +108,38 @@ function resizeElements(initial) {
 }
 
 // var imports = document.querySelectorAll("import");
-var imports = document.evaluate("//p[starts-with(., '@')]", document, null, XPathResult.ANY_TYPE, null);
-if (imports) {
-    var oldNode = imports.iterateNext();
-    while (oldNode) {
-        var n = oldNode;
-        var items = oldNode.textContent.split(" ");
-        if (items.length > 1) {
-            var codeType = items[1].split(".").pop();
-            var div = document.createElement("div");
-            div.classList.add("code-" + codeType)
-            n.parentElement.insertBefore(div, n);
-            n.parentElement.removeChild(n);
-            fetch(items[1]).then(result => result.text()).then(code => {
-                switch (codeType) {
-                    case "dot":
-                        vizParse(code, div);
-                        break;
-
-                    default:
-                        break;
-                }
-            })
+Reveal.on( 'ready', event => {
+    var imports = document.evaluate("//p[starts-with(., '@')]", document.body, null, XPathResult.ANY_TYPE, null);
+    if (imports) {
+        var oldNode = imports.iterateNext();
+        var nodes = [];
+        while (oldNode) {
+            nodes.push(oldNode)
+            oldNode = imports.iterateNext();
         }
-        oldNode = imports.iterateNext();
+        nodes.forEach(node => {
+            var items = node.textContent.split(" ");
+            if (items.length > 1) {
+                /* ricavo l'estensione dell'import */
+                var codeType = items[1].split(".").pop();
+                /* creo un div class="code-<codeType>" */
+                var div = document.createElement("div");
+                div.classList.add("code-" + codeType)
+                /* lo aggiungo prima del p */
+                node.parentElement.insertBefore(div, node);
+                node.parentElement.removeChild(node);
+                fetch(items[1]).then(result => result.text()).then(code => {
+                    switch (codeType) {
+                        case "dot":
+                            vizParse(code, div);
+                            break;
+                            
+                        default:
+                            break;
+                    }
+                })
+            }
+        })
     }
-}
-// imports.forEach(importElem => {
-//     console.log(importElem.dataset.src);
-//     fetch(importElem.dataset.src).then(x => x.text()).then(code => {
-//         var div = document.createElement("div");
-//         div.classList.add("imported");
-//         div.innerHTML
-//     })
-// });
+})
+  

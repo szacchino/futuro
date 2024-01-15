@@ -31,7 +31,7 @@ h1 {
     align-items: start;
 }
 
-section.cosa-impareremo .shape {
+section.cosa-impareremo.shape .shape {
     shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     /* shape-margin: 5%; */

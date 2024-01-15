@@ -47,15 +47,18 @@ section.roadmap h1 {
     align-items: center;
 }
 
-section.roadmap .shape {
+section.roadmap.shape .shape {
     shape-outside: polygon(0 0, 7% 0, 7% 25%, 100% 25%, 100% 33%, 12% 33%, 12% 100%, 0 100%);
-    /* clip-path: polygon(0 0, 10% 0, 10% 20%, 0 40%); */
     clip-path: polygon(0 0, 7% 0, 7% 25%, 100% 25%, 100% 33%, 12% 33%, 12% 100%, 0 100%);
     shape-margin: 1%;
-    /* shape-outside: polygon(0 0, 0 200px, 200px 300px); */
     width: 100%;
     height: 100%;
     float: left;
     /* opacity: 1;
     background-color:#00ff0055; */
+}
+
+.admonition {
+    width: 80%;
+    left: 6vw;
 }
