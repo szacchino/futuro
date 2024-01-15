@@ -109,6 +109,9 @@ function resizeElements(initial) {
 
 // var imports = document.querySelectorAll("import");
 Reveal.on( 'ready', event => {
+
+    document.getElementById("thisurl").innerText = document.location.href;
+
     var imports = document.evaluate("//p[starts-with(., '@')]", document.body, null, XPathResult.ANY_TYPE, null);
     if (imports) {
         var oldNode = imports.iterateNext();
