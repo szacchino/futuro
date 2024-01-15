@@ -3,7 +3,7 @@
 
 <img src="/futuro.png" style="height:80px"><img src="/unisalento-black.png" style="height:80px; float:right">
 
-<p style="font-size:2vw;text-align:center;font-weight:bold">https://szacchino.github.io/futuro</p>
+<p style="font-size:2vw;text-align:center;font-weight:bold">https://szacchino.github.io/futuro/Lezioni/banzi/ai1</p>
 <p>&nbsp;</p>
 
 <strong>Elenco delle lezioni</strong>
