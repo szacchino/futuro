@@ -1,5 +1,5 @@
 
-<!-- .slide: class="titolo" data-background-image="/sfondi/Titolo.webp" data-background-size="contain" -->
+<!-- .slide: class="titolo" data-background-image="/futuro/sfondi/Titolo.webp" data-background-size="contain" -->
 
 # AI1 Divertiamoci con Python
 ## FUTURO: Formazione innovativa e pratica UTilizzando laboratori congiUnti per la tRasfOrmazione digitale
@@ -7,7 +7,7 @@
 ### email: sandro.zacchino@unisalento.it
 
 ---
-<!-- .slide: class="cosa-impareremo h1-fontsize-30 h1-align-left shape" data-background-image="/sfondi/Cosa Impareremo.webp" data-background-size="contain" -->
+<!-- .slide: class="cosa-impareremo h1-fontsize-30 h1-align-left shape" data-background-image="/futuro/sfondi/Cosa Impareremo.webp" data-background-size="contain" -->
 # Cosa Impareremo
 
 - Utilizzo di Google Colab per lo sviluppo Python
@@ -16,7 +16,7 @@
 
 ---
 
-<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/sfondi/Roadmap.webp" data-background-size="contain" -->
+<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/futuro/sfondi/Roadmap.webp" data-background-size="contain" -->
 # Google Colab
 
 **Colab**, o *Colaboratory*, ti permette di scrivere ed eseguire Python nel tuo browser con:
@@ -27,7 +27,7 @@
 Che tu sia <strong>studente</strong>, <strong>data scientist</strong> o <strong>ricercatore AI</strong>, Colab può semplificarti il lavoro. 
 
 ---
-<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/sfondi/Roadmap.webp" data-background-size="contain" -->
+<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/futuro/sfondi/Roadmap.webp" data-background-size="contain" -->
 
 # Linguaggi di programmazione
 
@@ -44,7 +44,7 @@ Che tu sia <strong>studente</strong>, <strong>data scientist</strong> o <strong>
 - Velocità che dipende dall'applicazione
 
 ---
-<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Roadmap.webp" data-background-size="contain" -->
+<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Roadmap.webp" data-background-size="contain" -->
 # Google Colab
 
 Anche se utilizzeremo la versione gratuita di Google Colab:
@@ -56,7 +56,7 @@ Anche se utilizzeremo la versione gratuita di Google Colab:
 
 ---
 
-<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Roadmap.webp" data-background-size="contain" -->
+<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Roadmap.webp" data-background-size="contain" -->
 # Google Colab
 
 Con Python:
@@ -67,7 +67,7 @@ Con Python:
 
 ---
 
-<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/sfondi/Roadmap.webp" data-background-size="contain" -->
+<!-- .slide: class="roadmap h1-fontsize-40 h1-align-left shape" data-background-image="/futuro/sfondi/Roadmap.webp" data-background-size="contain" -->
 # Google Colab
 
 !!!warning Attenzione!
@@ -75,7 +75,7 @@ Con Python:
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Object Oriented Programming
 
@@ -85,7 +85,7 @@ Il termine più corretto sarebbe **Class Oriented Programming**
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Cos'è una Classe
 
@@ -94,7 +94,7 @@ Una Classe è uno schema che rappresenta una categoria di dati accomunati da spe
 Un attributo è un dato.
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Esempio di classe: Customer
 
@@ -117,7 +117,7 @@ class Customer {
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Esempio di classe: Product
 
@@ -145,7 +145,7 @@ class Product {
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Cos'è un oggetto
 
@@ -170,7 +170,7 @@ Object cliente {
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 # Programmazione ad oggetti
 
 La programmazione ad oggetti prevede quindi che i dati *propri* di una certa entità siano **incapsulati** all'interno di un oggetto che la rappresenta.
@@ -181,7 +181,7 @@ Ogni classe definisce anche delle funzioni o **metodi** con i quali accedere ai 
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Esempio di classe: Customer
 
@@ -209,7 +209,7 @@ class Customer {
 
 ---
 
-<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Opzioni.webp" data-background-size="contain" -->
+<!-- .slide: class="opzioni h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Opzioni.webp" data-background-size="contain" -->
 
 # Esempio di programma OOP
 
@@ -231,12 +231,12 @@ Program <-- Product1: "Apple Watch 3rd Gen."
 ```
 
 ---
-<!-- .slide: class="grafico h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Grafico.webp" data-background-size="contain" -->
+<!-- .slide: class="grafico h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Grafico.webp" data-background-size="contain" -->
 # Esempio di Sistema Informativo
 
 @import /Diagrams/sistemi_informativi.dot
 ---
-<!-- .slide: class="grafico h1-fontsize-40 h1-align-left" data-background-image="/sfondi/Grafico.webp" data-background-size="contain" -->
+<!-- .slide: class="grafico h1-fontsize-40 h1-align-left" data-background-image="/futuro/sfondi/Grafico.webp" data-background-size="contain" -->
 # Esempio di Sistema Informativo
 
 @import /Diagrams/sistemi_informativi.dot
