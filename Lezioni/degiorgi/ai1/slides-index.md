@@ -3,7 +3,7 @@
 
 <img src="/futuro/futuro.png" style="height:80px"><img src="/futuro/unisalento-black.png" style="height:80px; float:right">
 
-<p style="font-size:2vw;text-align:center;font-weight:bold">https://szacchino.github.io/futuro/Lezioni/banzi/ai1</p>
+<p style="font-size:2vw;text-align:center;font-weight:bold" id="thisurl"><script>document.getElementById("thisurl").innerText = document.location.href</script></p>
 <p>email: sandro.zacchino@unisalento.it</p>
 
 <strong>Elenco delle lezioni</strong>
