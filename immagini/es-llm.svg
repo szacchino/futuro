@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox="0 0 260.64 61.0129" >
+<polygon points="74.16,30.5065 62.64,34.8265 62.64,26.1865" style="fill:rgb(0,0,0)"/>
+<path d="M2.16,30.5065L68.4,30.5065"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="38.16" y="18.8065" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">prompt</text>
+<text x="38.16" y="42.2065" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"></text>
+<path d="M85.4986,58.8529L170.821,58.8529A11.3386 11.3386 0 0 0 182.16 47.5143L182.16,13.4986A11.3386 11.3386 0 0 0 170.821 2.16L85.4986,2.16A11.3386 11.3386 0 0 0 74.16 13.4986L74.16,47.5143A11.3386 11.3386 0 0 0 85.4986 58.8529Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="128.16" y="30.5065" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">LLM</text>
+<polygon points="254.16,30.5065 242.64,34.8265 242.64,26.1865" style="fill:rgb(0,0,0)"/>
+<path d="M182.16,30.5065L248.4,30.5065"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="218.16" y="18.8065" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">response</text>
+<text x="218.16" y="42.2065" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"></text>
+</svg>
+
