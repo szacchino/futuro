@@ -1,0 +1,42 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox="0 0 796.32 288.339" >
+<polygon points="74.16,44.1 62.64,48.42 62.64,39.78" style="fill:rgb(0,0,0)"/>
+<path d="M2.16,44.1L68.4,44.1"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="38.16" y="32.4" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">START</text>
+<text x="38.16" y="55.8" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central"></text>
+<path d="M85.4986,72.4465L176.207,72.4465A11.3386 11.3386 0 0 0 187.546 61.1079L187.546,27.0921A11.3386 11.3386 0 0 0 176.207 15.7535L85.4986,15.7535A11.3386 11.3386 0 0 0 74.16 27.0921L74.16,61.1079A11.3386 11.3386 0 0 0 85.4986 72.4465Z"  style="fill:rgb(212,239,252);stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="130.853" y="34.02" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">Input</text>
+<text x="130.853" y="54.18" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">Utente</text>
+<polygon points="283.924,44.1 272.404,48.42 272.404,39.78" style="fill:rgb(255,0,0)"/>
+<path d="M187.546,44.1L278.164,44.1"  style="fill:none;stroke-width:2.16;stroke:rgb(255,0,0);" />
+<text x="235.735" y="32.4" text-anchor="middle" fill="rgb(255,0,0)" dominant-baseline="central">domanda</text>
+<text x="235.735" y="55.8" text-anchor="middle" fill="rgb(255,0,0)" dominant-baseline="central"></text>
+<polygon points="454.003,44.1 442.483,48.42 442.483,39.78" style="fill:rgb(71,141,173)"/>
+<path d="M283.924,44.1L448.243,44.1"  style="fill:none;stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="368.963" y="12.24" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">istruzioni + domanda</text>
+<text x="368.963" y="32.4" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">+ memoria</text>
+<path d="M465.341,72.4465L556.05,72.4465A11.3386 11.3386 0 0 0 567.388 61.1079L567.388,27.0921A11.3386 11.3386 0 0 0 556.05 15.7535L465.341,15.7535A11.3386 11.3386 0 0 0 454.003 27.0921L454.003,61.1079A11.3386 11.3386 0 0 0 465.341 72.4465Z"  style="fill:rgb(212,239,252);stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="510.695" y="44.1" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">LLM</text>
+<polygon points="680.774,44.1 669.254,48.42 669.254,39.78" style="fill:rgb(71,141,173)"/>
+<path d="M567.388,44.1L675.014,44.1"  style="fill:none;stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="624.081" y="32.4" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">risposta</text>
+<text x="624.081" y="55.8" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central"></text>
+<path d="M692.113,72.4465L782.821,72.4465A11.3386 11.3386 0 0 0 794.16 61.1079L794.16,27.0921A11.3386 11.3386 0 0 0 782.821 15.7535L692.113,15.7535A11.3386 11.3386 0 0 0 680.774 27.0921L680.774,61.1079A11.3386 11.3386 0 0 0 692.113 72.4465Z"  style="fill:rgb(212,239,252);stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="737.467" y="44.1" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">TTS</text>
+<path d="M692.113,214.179L782.821,214.179A11.3386 11.3386 0 0 0 794.16 202.84L794.16,168.824A11.3386 11.3386 0 0 0 782.821 157.486L692.113,157.486A11.3386 11.3386 0 0 0 680.774 168.824L680.774,202.84A11.3386 11.3386 0 0 0 692.113 214.179Z"  style="fill:rgb(212,239,252);stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="737.467" y="185.832" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">Output Audio</text>
+<polygon points="737.467,157.486 733.147,145.966 741.787,145.966" style="fill:rgb(71,141,173)"/>
+<path d="M737.467,72.4465L737.467,151.726"  style="fill:none;stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="737.467" y="114.966" text-anchor="start" fill="rgb(71,141,173)" dominant-baseline="central"> audio</text>
+<path d="M465.341,214.179L556.05,214.179A11.3386 11.3386 0 0 0 567.388 202.84L567.388,168.824A11.3386 11.3386 0 0 0 556.05 157.486L465.341,157.486A11.3386 11.3386 0 0 0 454.003 168.824L454.003,202.84A11.3386 11.3386 0 0 0 465.341 214.179Z"  style="fill:rgb(212,239,252);stroke-width:2.16;stroke:rgb(71,141,173);" />
+<text x="510.695" y="175.752" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">Aggiungi</text>
+<text x="510.695" y="195.912" text-anchor="middle" fill="rgb(71,141,173)" dominant-baseline="central">a Memoria</text>
+<polygon points="567.388,185.832 578.908,181.512 578.908,190.152" style="fill:rgb(71,173,141)"/>
+<path d="M624.081,44.1L624.081,116.1L624.081,185.832L573.148,185.832"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(71,173,141);" />
+<text x="595.735" y="103.266" text-anchor="start" fill="rgb(71,173,141)" dominant-baseline="central">         domanda</text>
+<text x="595.735" y="126.666" text-anchor="start" fill="rgb(71,173,141)" dominant-baseline="central">         risposta</text>
+<polygon points="368.963,44.1 373.283,55.62 364.643,55.62" style="fill:rgb(71,173,141)"/>
+<path d="M454.003,185.832L368.963,185.832L368.963,49.86"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(71,173,141);" />
+<polygon points="130.853,72.4465 135.173,83.9665 126.533,83.9665" style="fill:rgb(71,173,141)"/>
+<path d="M737.467,214.179L737.467,286.179L130.853,286.179L130.853,78.2065"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(71,173,141);" />
+</svg>
+
